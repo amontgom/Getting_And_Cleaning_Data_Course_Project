@@ -48,11 +48,11 @@ colnames(mergedDataSubj) <- 'subjectnumber'
 
 
 #4. Appropriately labels the data set with descriptive variable names.
-#Applies labels
+#Merges it all into one big set, and applies labels
 fullData <- cbind(mergedDataSubj, mergedDataY, mergedDataXMS)
 
 #Writes out data
-write.table(fullData, "./data/GettingCleaningProject/fullData.txt")
+write.table(fullData, "./data/GettingCleaningProject/fullData.txt", row.name = FALSE)
 
 
 
@@ -64,4 +64,4 @@ averagedData <- aggregate(x = fullData, by = list(activity_type = fullData$activ
 averagedData <- subset(averagedData, select = -c(subjectnumber, activitytype))
 
 #Writes out data
-write.table(fullData, "./data/GettingCleaningProject/averagedData.txt")
+write.table(averagedData, "./data/GettingCleaningProject/averagedData.txt", row.name = FALSE)
