@@ -1,6 +1,8 @@
-#Codebook
+Codebook
+=============================
 
-##Dataset Information:
+Dataset Information:
+--------------------------
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six
 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on
 the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at
@@ -14,8 +16,8 @@ to have only low frequency components, therefore a filter with 0.3 Hz cutoff fre
 features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 
-##For each record in this dataset the following is provided:
-======================================
+For each record in this dataset the following is provided:
+--------------------------
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
@@ -23,14 +25,16 @@ features was obtained by calculating variables from the time and frequency domai
 - An identifier of the subject who carried out the experiment.
 
 
-##Required Citation: 
+Required Citation:
+--------------------------
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones
 using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012).
 Vitoria-Gasteiz, Spain. Dec 2012
 
 
-##Variables Present in the Final Datasets
+Variables Present in the Final Datasets
+--------------------------
 
 | Variable | Description
 -----------|-------------
