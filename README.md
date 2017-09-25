@@ -26,6 +26,6 @@
 4. Applies appropriate column names to all three datasets, drawing from features.txt (for X), activity_labels.txt (for Y), and applying subject numbers (for the subject data)
 5. Binding the columns of Y and subject to X, applying new labels
 6. Writes out this full dataset (fullData.txt)
-7. Averages the data per subject number and activity type
+7. Averages the data per subject number and activity type (i.e. creates the tidy data)
 8. Removes extraneous labels
 9. Writes out this averaged dataset (averagedData.txt)
