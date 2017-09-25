@@ -16,7 +16,7 @@
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##The script:
+##The analysis script, run_analysis.R:
 1. Loads the training/test data from an already-local and unzipped directory.
 2. Merges the three groups of training and test data, X, Y, and subject, into a single training+test dataset per group
 3. Extracts only the mean and standard deviation information from the X dataset, and creates a new dataset with it
